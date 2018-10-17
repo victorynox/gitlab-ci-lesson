@@ -19,6 +19,6 @@ by_message:
 ```
 
 ## only
-tags - теги
-branches - пуш кода в ветку
-pushes - теги и пуш кода в ветку
+* tags - когда создаешь теги
+* branches - push код в ветку
+* pushes - push тегов и кода в ветку
