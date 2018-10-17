@@ -57,4 +57,4 @@ test_message_run_test:
     refs:
     - master
     variables:
-    - $CI_COMMIT_MESSAGE == "#run test"
+    - $CI_COMMIT_MESSAGE =~ /#run test/
