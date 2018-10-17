@@ -1,3 +1,5 @@
+image: apline
+
 simple_job:
   script: echo "simple job"
 
@@ -15,7 +17,6 @@ by_tag:
   script: echo "by eny tag"
   only:
   - tags
-
 
 expect_master:
   script: echo "not master"
@@ -40,7 +41,4 @@ on_web:
   script: echo "on web"
   only:
   - web
-
-
-
 
