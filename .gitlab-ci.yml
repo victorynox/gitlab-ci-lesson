@@ -42,3 +42,10 @@ on_web:
   only:
   - web
 
+test_vars:
+  script: echo "vars"
+  only:
+    refs:
+    - master
+    variables:
+      - $CI_COMMIT_MESSAGE
