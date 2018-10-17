@@ -24,3 +24,5 @@ by_message:
 * pushes - push тегов и кода в ветку
 
 run test
+
+hotfix
