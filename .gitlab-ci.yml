@@ -50,7 +50,6 @@ test_vars:
     variables:
     - $CI_COMMIT_MESSAGE
 
-
 test_message_run_test:
   script: echo "run test"
   only:
