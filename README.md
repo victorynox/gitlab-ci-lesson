@@ -23,4 +23,4 @@ by_message:
 * branches - push код в ветку
 * pushes - push тегов и кода в ветку
 
-test
+run test

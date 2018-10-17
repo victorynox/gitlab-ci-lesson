@@ -42,3 +42,19 @@ on_web:
   only:
   - web
 
+test_vars:
+  script: echo "vars $CI_COMMIT_MESSAGE"
+  only:
+    refs:
+    - master
+    variables:
+    - $CI_COMMIT_MESSAGE
+
+
+test_message_run_test:
+  script: echo "run test"
+  only:
+    refs:
+    - master
+    variables:
+    - $CI_COMMIT_MESSAGE =~ /#run test/
