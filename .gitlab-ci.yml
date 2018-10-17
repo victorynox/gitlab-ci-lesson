@@ -16,11 +16,6 @@ by_tag:
   only:
   - tags
 
-by_message:
-  script: echo "by message RUN TEST"
-  only:
-    variables:
-    - $CI_COMMIT_MESSAGE == /RUN TEST/
 
 expect_master:
   script: echo "not master"
