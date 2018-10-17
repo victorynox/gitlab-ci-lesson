@@ -49,3 +49,12 @@ test_vars:
     - master
     variables:
       - $CI_COMMIT_MESSAGE
+
+
+test_message_contains_run_test:
+  script: echo "run test"
+  only:
+    refs:
+    - master
+    variables:
+    - $CI_COMMIT_MESSAGE == /run test/
