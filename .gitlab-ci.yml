@@ -1,4 +1,4 @@
-image: apline
+image: alpine
 
 simple_job:
   script: echo "simple job"
